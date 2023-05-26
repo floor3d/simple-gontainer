@@ -105,6 +105,7 @@ func child() {
 
 // Panic if error occurs
 func must(err error) {
+    // TODO: issue where it cant find file; debug
 	if err != nil {
 		panic(err)
 	}
